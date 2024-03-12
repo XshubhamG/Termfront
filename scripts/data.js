@@ -44,15 +44,10 @@ export const data = {
 
    repo: `
       <div class="prompt__container">
-        <span class="prompt">Shubh@Terminal:~$ social</span>
+        <span class="prompt">Shubh@Terminal:~$ repo</span>
       </div>
-      <section class="section__container">Here is the <a href="https://github.com/xshubhamg/">source code</a> for this application.</section>
+      <section class="section__container">Here is the <a href="https://github.com/xshubhamg/Termfront">source code</a> for this application.</section>
       `,
-   neofetch: `
-   <div class="prompt__container">
-        <span class="prompt">Shubh@Terminal:~$ neofetch</span>
-      </div>
-   `,
    banner: `
       <div class="prompt__container">
         <span class="prompt">Shubh@Terminal:~$ banner</span>
@@ -70,5 +65,35 @@ export const data = {
          </p>
          <p>For list of avaiable commands, type <span class="text__shadow">'help'</span></p>
       </section>
+      `,
+   whoami: `
+      <div class="prompt__container">
+        <span class="prompt">Shubh@Terminal:~$ whoami</span>
+      </div>
+      <section class="section__container">
+         <p>
+The paradox of <span class="text__shadow">“Who am I?”</span> is: we never know, but, we constantly find out.
+         </p>
+      </section>
+      `,
+   whois: `
+      <div class="prompt__container">
+        <span class="prompt">Shubh@Terminal:~$ whois</span>
+      </div>
+      <section class="section__container">
+         <p>
+
+Shubham, an MCA student, lives and breathes coding and computer science. With a deep affection for technology, he thrives in the world of web development, constantly exploring new ideas and crafting innovative solutions. His enthusiasm and curiosity fuel his drive to excel in all things digital. Whether it's experimenting with new programming languages or diving into complex algorithms, Shubham's love for coding knows no bounds. He's a dynamic force in the tech community, always eager to learn, share, and push the boundaries of what's possible in the digital realm. <span class="text__shadow">ChatGPT is so fake bruh :)</span>
+         </p>
+      </section>`,
+
+   projects: `
+      <div class="prompt__container">
+        <span class="prompt">Shubh@Terminal:~$ projects</span>
+      </div>
+      <section class="section__container">
+         Checkout my <a href="https://github.com/xshubhamg">Github</a> for projects I have worked on.
+      </section>
       `
+
 }

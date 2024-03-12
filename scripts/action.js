@@ -21,6 +21,15 @@ export const action = function (event) {
     } else if (command === 'banner') {
       terminal.innerHTML += data.banner
 
+    } else if (command === 'whoami') {
+      terminal.innerHTML += data.whoami
+
+    } else if (command === 'whois') {
+      terminal.innerHTML += data.whois
+
+    } else if (command === 'projects') {
+      terminal.innerHTML += data.projects
+
     } else {
       terminal.innerHTML += `
       <div class="prompt__container">
